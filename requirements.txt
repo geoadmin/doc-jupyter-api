@@ -1,0 +1,13 @@
+ipykernel==5.1.0
+jupyterlab==1.1.4
+OWSLib==0.17.0
+plotly==3.4.2
+#pyproj==1.9.5.1
+matplotlib==3.0.2
+psycopg2-binary
+shapely
+geopandas
+mapbox-vector-tile
+seaborn
+jupyter_contrib_nbextensions
+display_xml

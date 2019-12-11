@@ -1,0 +1,7 @@
+version: '2'
+services:
+  jupyter:
+    image: swisstopo/doc-jupyter-api:latest
+    ports: 
+     - '8888:8888'
+    network_mode: "host"
