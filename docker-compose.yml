@@ -5,3 +5,10 @@ services:
     ports: 
      - '8888:8888'
     network_mode: "host"
+  jupyter-external-notebooks:
+    image: swisstopo/doc-jupyter-api-no-notebooks:latest
+    ports:
+     - '8888:8888'
+    network_mode: "host"
+    volumes: 
+     - ./notebooks:/home/usr/notebooks

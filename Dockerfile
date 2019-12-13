@@ -69,10 +69,8 @@ RUN pip3 install setuptools \
 # and some other extensions:
 # - geojson-extension:
 # - celltags: tag cells (e.g. with 'hidden' to exclude from export)
-
-COPY ./notebooks /home/user/notebooks
-WORKDIR /home/user/notebooks
-
+VOLUME /home/usr/notebooks
+WORKDIR /home/usr/notebooks
 
 EXPOSE 8888
 #CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0"]
