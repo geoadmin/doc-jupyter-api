@@ -11,4 +11,4 @@ mapbox-vector-tile
 seaborn
 jupyter_contrib_nbextensions
 display_xml
-contextily
+contextily==1.0rc2
